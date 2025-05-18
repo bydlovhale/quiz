@@ -31,7 +31,7 @@ def run_quiz(questions):
         if q["options"][ans - 1] == q["answer"]:
             score += 1
 
-    print(f"\nYour score: {score}/{len(questions)}")
+    print(f"\nYour scor: {score}/{len(questions)}")
 
 if __name__ == "__main__":
     questions = load_questions()
